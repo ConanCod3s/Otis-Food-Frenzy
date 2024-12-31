@@ -33,7 +33,7 @@ Welcome to the world of game development with **Godot**! This guide will help yo
       │     └── sounds
       ├── scenes/          # Game scenes
       ├── scripts/         # Game scripts
-      ├── ui/              # User interface assets and scenes
+      ├── ui/              # User interface
       ├── .gitignore       
       └── README.md        # Project documentation
    ```
