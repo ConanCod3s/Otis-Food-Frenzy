@@ -2,13 +2,13 @@
 
 # Getting Started with Godot and Running it in an IDE
 
-Welcome to the world of game development with **Godot**! This guide will help you download and set up Godot, clone this project, and run it in an Integrated Development Environment (IDE) like Visual Studio Code.
+Welcome to the world of game development with **Godot**! This guide will help you download and set up Godot, clone this project, and run it in an IDE.
 
 ---
 
 ## Step 1: Download Godot
 
-1. Go to the [official Godot Engine website](https://godotengine.org/) or use [Steam](https://store.steampowered.com/app/404790/Godot_Engine//).
+1. Go to the [official Godot Engine website](https://godotengine.org/) or [Steam](https://store.steampowered.com/app/404790/Godot_Engine//).
 
 ---
 
