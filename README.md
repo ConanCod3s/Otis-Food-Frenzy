@@ -26,19 +26,40 @@ Welcome to the world of game development with **Godot**! This guide will help yo
 
 ### Base Directories (Will Change):
 ```arduino
-project-root/
-   ├── assets/          # Place for raw assets (images, sounds, etc.)
-   │     ├── fonts
-   │     ├── images  
-   │     └── sounds
-   ├── scenes/          # Game scenes
-   ├── scenes/          # Game scenes
-   ├── scripts/         # Game scripts
-   ├── ui/              # User interface assets and scenes
-   ├── .gitignore       # User interface assets and scenes
-   └── README.md        # Project documentation
+	res://
+	├── Assets
+	│   ├── Audio
+	│   ├── Characters
+	│   ├── Enemies
+	│   ├── Environment
+	│   ├── fonts
+	│   ├── images
+	│   ├── sounds
+	│   └── UI
+	├── Global
+	│   └── GameManager.gd
+	├── Scenes
+	│   ├── Enemies
+	│   │   └── JumpingBurger
+	│   │       ├── JumpingBurger.gd
+	│   │       └── JumpingBurger.tscn
+	│   ├── Levels
+	│   │   └── Level1.tscn
+	│   ├── Player
+	│   │   ├── Otis.gd
+	│   │   └── Otis.tscn
+	│   └── UI
+	│       ├── HUD
+	│       │   ├── HUD.gd
+	│       │   └── HUD.tscn
+	│       └── Main Menu
+	│           ├── MainMenu.gd
+	│           └── MainMenu.tscn
+	├── Main.gd
+	├── Main.tscn
+	├── icon.svg
+	└── README.md
 ```
 
 ### Game Design Document:
    https://1drv.ms/w/s!At7ddx3YPo32h81Qrd_fsHAP8c8fEg?e=Bxqsdg
-
