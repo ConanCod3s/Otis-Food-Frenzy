@@ -62,4 +62,4 @@ Welcome to the world of game development with **Godot**! This guide will help yo
 ```
 
 ### Game Design Document:
-   https://1drv.ms/w/s!At7ddx3YPo32h81Qrd_fsHAP8c8fEg?e=Bxqsdg
+   [Otis's Food Frenzy GDD - v1.0 - Github](https://1drv.ms/w/s!At7ddx3YPo32h81U7HmJPFuzzpDJSg?e=iPcZE9)

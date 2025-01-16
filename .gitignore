@@ -1,3 +1,50 @@
-# Godot 4+ specific ignores
+### Godot-specific ignores
+
+# Godot 4+ metadata folder (contains local caches and editor settings)
 .godot/
+
+# Import/Export folders and files created by the Godot editor
+.import/
+.export/
+*.import
+
+# Mono/C# builds
+.mono/
+.mono_logs/
+
+# Android build artifacts
+.android/
+.android_build/
+.gradle/
 /android/
+
+### IDE / Editor files
+
+# JetBrains IDE
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# VSCode settings
+.vscode/
+
+### OS-specific or common clutter
+
+# macOS Finder files
+.DS_Store
+
+# Windows thumbnail database
+Thumbs.db
+
+# Backup / temp files
+*~
+*.tmp
+
+### Build / export folders
+
+# If you create a separate build or bin folder
+build/
+bin/
+exported_projects/
+
