@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://xl2l3adwiktl"]
+
+[ext_resource type="PackedScene" uid="uid://du4bt8x35dfek" path="res://Scenes/UI/HUD/HUD.tscn" id="1_est8u"]
+[ext_resource type="PackedScene" uid="uid://c76parpti83ev" path="res://Scenes/Player/Otis.tscn" id="1_xmvul"]
+[ext_resource type="PackedScene" uid="uid://c7q0xkc2piyfl" path="res://Scenes/Enemies/JumpingBurger/JumpingBurger.tscn" id="2_wplts"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_uhweo"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ydtst"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_w58fd"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Otis" parent="." instance=ExtResource("1_xmvul")]
+position = Vector2(200, 592)
+
+[node name="HUD" parent="." instance=ExtResource("1_est8u")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Floor" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(583, 650)
+shape = SubResource("WorldBoundaryShape2D_uhweo")
+
+[node name="RightWall" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1151, 396)
+rotation = -1.57079
+shape = SubResource("WorldBoundaryShape2D_ydtst")
+
+[node name="LeftWall" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(15, 396)
+rotation = 1.57079
+shape = SubResource("WorldBoundaryShape2D_w58fd")
+
+[node name="JumpingBurger" parent="." instance=ExtResource("2_wplts")]
+position = Vector2(1059, 620)

@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://du4bt8x35dfek"]
+
+[ext_resource type="Script" path="res://Scenes/UI/HUD/HUD.gd" id="1_7shun"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_7shun")
+
+[node name="LivesLabel" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3 uid="uid://cjhwcx12ks2hb"]
+
+[ext_resource type="Script" path="res://Scenes/Main.gd" id="1_b85ch"]
+[ext_resource type="PackedScene" uid="uid://pbpoatmxbho3" path="res://Scenes/UI/Main Menu/MainMenu.tscn" id="5_ryejv"]
+[ext_resource type="PackedScene" uid="uid://du4bt8x35dfek" path="res://Scenes/UI/HUD/HUD.tscn" id="6_y260t"]
+
+[sub_resource type="PackedScene" id="PackedScene_3op6a"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_b85ch")
+mob_scene = SubResource("PackedScene_3op6a")
+
+[node name="MainMenu" parent="." instance=ExtResource("5_ryejv")]
+
+[node name="HUD" parent="." instance=ExtResource("6_y260t")]
