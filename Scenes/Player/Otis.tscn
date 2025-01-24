@@ -1,16 +1,19 @@
 [gd_scene load_steps=4 format=3 uid="uid://c76parpti83ev"]
 
 [ext_resource type="Script" path="res://Scenes/Player/Otis.gd" id="1_4b4np"]
-[ext_resource type="Texture2D" uid="uid://tshy44o803ph" path="res://icon.svg" id="2_srfmt"]
+[ext_resource type="Texture2D" uid="uid://cnjbr81h5k2oc" path="res://Scenes/Player/Otis.png" id="2_cgsyx"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_tpa2m"]
-size = Vector2(128, 128)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ncvmt"]
+size = Vector2(73, 175)
 
 [node name="Otis" type="CharacterBody2D"]
 script = ExtResource("1_4b4np")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_tpa2m")
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_srfmt")
+position = Vector2(16, 16)
+scale = Vector2(1.024, 1.024)
+texture = ExtResource("2_cgsyx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4.5, -17.5)
+shape = SubResource("RectangleShape2D_ncvmt")
