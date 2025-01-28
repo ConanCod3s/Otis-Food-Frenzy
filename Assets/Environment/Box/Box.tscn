@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c48le2nqnpjfo"]
+
+[ext_resource type="Texture2D" uid="uid://blbxn1h2gq1lb" path="res://Assets/Itch.io_Pixel_Frog/Items/Boxes/Box1/Idle.png" id="1_si4qo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cdt05"]
+
+[node name="Box" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_si4qo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_cdt05")
