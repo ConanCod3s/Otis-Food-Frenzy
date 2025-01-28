@@ -1,6 +1,6 @@
 # Otis-Food-Frenzy
 
-# Getting Started with Godot and Running it in an IDE
+## Getting Started with Godot and Running it in an IDE
 
 Welcome to the world of game development with **Godot**! This guide will help you download and set up Godot, clone this project, and run it in an IDE.
 
@@ -60,6 +60,12 @@ res://
 ├── icon.svg
 └── README.md
 ```
+
+# Resources
+   
+[Otis by RaR Brewing](https://rarbrewing.com/)
+
+[Pixel Adventure by Pixel Frog](https://pixelfrog-assets.itch.io/pixel-adventure-1)
 
 ### Game Design Document:
    [Otis's Food Frenzy GDD - v1.0 - Github](https://1drv.ms/w/s!At7ddx3YPo32h81U7HmJPFuzzpDJSg?e=iPcZE9)
